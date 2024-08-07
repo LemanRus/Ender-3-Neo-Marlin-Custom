@@ -11,9 +11,11 @@ This repository contains customized Marlin firmware configuration files for the 
 - Nozzle temperature increased to 300°C
 - Bed temperature increased to 110°C
 - Linear advance enabled
-- Bed leveling using UBL (Unified Bed Leveling) with 25 points
+- (FIXED) Bed leveling using UBL (Unified Bed Leveling) with 16 points
 - Russian language set by default (can be changed in the configuration)
 - Enabled Z-axis nozzle offset wizard and UBL setup wizard
+- (ADDED) Bed tramming
+- (ADDED) Repeatability test for Z-probe
 
 ## Requirements
 
@@ -82,9 +84,11 @@ This project is licensed under the GPLv3 License.
 - Температура сопла поднята до 300°C
 - Температура стола поднята до 110°C
 - Активирован Linear advance
-- Выравнивание стола методом UBL (Unified Bed Leveling) по 25 точкам
+- (ИСПРАВЛЕНО) Выравнивание стола методом UBL (Unified Bed Leveling) по 16 точкам
 - Русский язык по умолчанию (можно заменить в конфигурации)
 - Активированы мастер настройки смещения сопла по оси Z и мастер настройки UBL
+- (ДОБАВЛЕНО) Выравнивание стола по углам
+- (ДОБАВЛЕНО) Тест повторяемости для датчика оси Z
 
 ## Требования
 
