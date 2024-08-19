@@ -16,6 +16,7 @@ This repository contains customized Marlin firmware configuration files for the 
 - Enabled Z-axis nozzle offset wizard and UBL setup wizard
 - (ADDED) Bed tramming
 - (ADDED) Repeatability test for Z-probe
+- (ADDED) G60/G61/G26 commands support
 
 ## Requirements
 
@@ -89,6 +90,7 @@ This project is licensed under the GPLv3 License.
 - Активированы мастер настройки смещения сопла по оси Z и мастер настройки UBL
 - (ДОБАВЛЕНО) Выравнивание стола по углам
 - (ДОБАВЛЕНО) Тест повторяемости для датчика оси Z
+- (ДОБАВЛЕНО) Поддержка команд G60/G61/G26
 
 ## Требования
 
